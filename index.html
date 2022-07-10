@@ -2,38 +2,79 @@
 <html lang = "en">
 <head>
     <meta charset = "utf-8">
-    <link href="sec.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- 中文的字型 font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <!-- 英文的字型 font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    
+    <title>R. O. I. - 伊卡洛斯 大補帖</title>
 </head>
 
 <body>
-    <!-- header -->
     <header>
-        <h1>< header ><p>可放置頁面主要標題、LOGO 等</p></h1>
+    <div class="container">
+    <!-- 以下為 NavBar 之模組 -->
+    <nav class="navbar navbar-expand-lg bg-lightpurple">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="pictures/logo_demo.jpg">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      </div>
+
     </header>
-
-    <!-- nav -->
-    <nav>
-        < nav ><p>此網頁的導覽區塊</p>
-        <ul>
-        </ul>
-    </nav>
-
-    <!-- 這裡是 article 裡面放 section 標題-->
-    <article>
-        < artcicle ><p>內容區</p>
-        <section>< section ><p>網頁內容的區塊 - 1</p></section>
-    </article>
     
-    <!-- 這裡是 aside 側邊攔標籤 -->
-    <aside>
-        < aside ><p>側邊欄位可放置額外資訊、相關連結等</p>
-    </aside>
-
-    <!-- 這裡是 footer 區塊標籤 -->
-    <footer>
-        < footer ><p>頁腳處，可在此聲明版權、使用規範等等</p>
-    </footer>
-
-    </body>
+    <!-- 原始 section 程式碼 -->
+    <section id="intro">
+        <div class="container-fluid bg-lightpurple p-5">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 class="display-4">伊卡洛斯最全資訊大補帖</h1>
+                <p class="lead"><strong>生活悶悶的？加入我們一齊捕捉可愛萌寵啦！</strong></p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">加入遊戲</a>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
 </html>
