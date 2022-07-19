@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <!-- 小地圖/小時鐘 icon 的程式碼(僅1行) -->
+    <script src="https://kit.fontawesome.com/015fa3b3af.js" crossorigin="anonymous"></script>
+    <!-- 自適應網頁程式碼(僅一行) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- 中文的字型 font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <!-- 英文的字型 font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    
+    <title>R. O. I. - 伊卡洛斯 大補帖</title>
+</head>
+
+<body>
+    <header>
+    <div class="container">
+    <!-- 以下為 NavBar 之模組 -->
+    <nav class="navbar navbar-expand-lg bg-lightpurple">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="pictures/logo_demo.jpg">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">最新資訊</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  目錄
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">職業介紹</a></li>
+                  <li><a class="dropdown-item" href="#">天賦介紹</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">地圖</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">聯絡我們</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      </div>
+
+    </header>
+    
+    <!-- 原始 section 程式碼 -->
+    <section id="intro">
+        <div class="container-fluid bg-lightpurple p-5">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 class="display-4">伊卡洛斯最全資訊大補帖</h1>
+                <p class="lead"><strong>生活悶悶的？加入我們一齊捕捉可愛萌寵啦！</strong></p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">加入遊戲</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- 介簡的區塊 -->
+    <section id="second">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h3>R. O. I. - 伊卡洛斯 大補帖</h3>
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <!-- 放頭貼 -->
+                <img src="pictures/head.jpg">
+                <!-- 小編名稱 -->
+                <h5>小編 安妞</h5>
+              </div>
+              <div class="col-md-8 text-left">
+                <p class="lead">「伊卡洛斯」帶您體驗前所未有的飛行座騎戰鬥，您可以騎在 最帥、最萌、最酷 的坐騎上戰鬥～～～</p>
+                <p>遊戲內有超過上百種坐騎，各種龍獸、有翼野獸、還有可愛貓貓等各式坐騎等著您來馴服。</p>
+                <p>還在猶豫嗎？趕快加入我們的行列吧！！！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 相片的區塊 -->
+    <section id="latest">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3>地圖一覽</h3>
+            <div class="row">
+              <!-- 第一章地圖  -->
+              <div class="col-md-4 text-left">
+                <div class="outer">
+                  <a href="#">
+                    <div class="upper">
+                      <img src="pictures/map1.jpg">
+                      
+                    </div>
+                    <div class="lower">
+                      <h3>布拉卡森林</h3>
+                      <h4>菁英坐騎：3</h4>
+                      <h4>一般坐騎：10</h4>
+                      <span>進入地圖</span><br>
+                      
+                      <!-- 呈現 icon -->
+                      <!-- 進入 fontawesome.com 裡面搜尋小 icon -->
+                      <span><i class="fa-solid fa-map"></i>UTC</span><br>
+                      <span><i class="fa-solid fa-clock-rotate-left"></i>Nov 03, 2022 08:00 PM</span>
+
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- 第二章地圖  -->
+              <div class="col-md-4 text-left">
+                <div class="outer">
+                  <a href="#">
+                    <div class="upper">
+                      <img src="pictures/map2.jpg">
+                      
+                    </div>
+                    <div class="lower">
+                      <h3>哈卡納斯首都</h3>
+                      <h4>菁英坐騎：6</h4>
+                      <h4>一般坐騎：6</h4>
+                      <span>進入地圖</span><br>
+                      
+                      <!-- 呈現 icon -->
+                      <span><i class="fa-solid fa-map"></i>UTC</span><br>
+                      <span><i class="fa-solid fa-clock-rotate-left"></i>Nov 03, 2022 08:00 PM</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- 第三章地圖  -->
+              <div class="col-md-4 text-left">
+                <div class="outer">
+                  <a href="#">
+                    <div class="upper">
+                      <img src="pictures/map3.jpg">
+                      
+                    </div>
+                    <div class="lower">
+                      <h3>哈卡納斯直轄領地</h3>
+                      <h4>英雄坐騎：2</h4>
+                      <h4>菁英坐騎：20</h4>
+                      <h4>一般坐騎：31</h4>
+                      <span>進入地圖</span><br>
+                      
+                      <!-- 呈現 icon -->
+                      <span><i class="fa-solid fa-map"></i>UTC</span><br>
+                      <span><i class="fa-solid fa-clock-rotate-left"></i>Nov 03, 2022 08:00 PM</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- email 的區塊 -->
+    <section id="email">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h3>加入 R. O. I. - 伊卡洛斯 的 Email List</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-left">
+            <p>讓我們有最新資訊立刻通知您！</p>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer 的區塊 -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <img src="pictures/logo_demo.jpg" width="85">
+            <p>R. O. I. - 伊卡洛斯。生活悶悶的？加入我們一齊捕捉可愛萌寵啦！</p>
+          </div>
+          <div class="col-md-4 text-left">
+            <h4>連結</h4>
+            <ul>
+              <li><a href="index.html">主頁</a></li>
+              <li><a href="index2.html">最新資訊</a></li>
+            </ul>
+            <ul>
+              <li><a href="index.html">目錄</a></li>
+              <li><a href="index2.html">聯絡我們</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-left">
+            <h4>聯絡我們</h4>
+            <p>高雄市前鎮區<br>
+             Phone: (04)7911-948<br>
+             E-mail:<a href="tcfsh510435@hotmail.com">xxx@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
