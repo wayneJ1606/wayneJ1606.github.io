@@ -27,6 +27,14 @@ nav li{
 #intro .btn{
 	margin-top: 20px;
 }
+
+.longspace{
+	margin:1500px;
+}
+.text24{
+	font-size:24px;
+}
+
 .btn{
     background-color: #f05f5c;
     padding: 7px 28px;
@@ -158,6 +166,9 @@ footer ul{
 	float: left;
     margin-right: 46px;
 }
+
+
+
 #latest .thehead h3{
     margin-bottom: 7px;
     font-size: 32px;
