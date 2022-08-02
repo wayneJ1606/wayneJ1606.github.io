@@ -18,6 +18,10 @@ nav li{
     height: 70vh;
     margin-bottom: 0px;
 }
+p strong{
+	color:red;
+	font-size:40px;
+}
 
 #intro .jumbotron .container{
 	position:relative;
