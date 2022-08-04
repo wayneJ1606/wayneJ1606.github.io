@@ -32,6 +32,13 @@ p strong{
 	margin-top: 20px;
 }
 
+.menucard{
+	width:400px;
+	height:450px;
+	margin:50px;
+	box-shadow:0px 2px 20px 0px;
+}
+
 .longspace{
 	margin:1500px;
 }
