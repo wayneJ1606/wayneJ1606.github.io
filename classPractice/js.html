@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <script>
     // 關係運算子 > < >= <= ==等於 !=不等於
     // 邏輯運算子 &&且 ||或
@@ -83,14 +84,52 @@
         console.log( `第${i+1}個陣列元素是 ${arrayMajor[i]}` );
     }*/
 
-    var arr = [1,2,3];
+    /*var arr = [1,2,3];
     var iter = arr[Symbol.iterator]();  //Symbol.iterator 屬性的值為一個符合迭代器協議的函式
     console.log(iter);
     console.log(iter.next());
     console.log(iter);
     console.log(iter.next());
     console.log(iter.next());
-    console.log(iter.next());
+    console.log(iter.next());*/
+
+    /*
+    // entries( ) 方法返回一個新的Array Iterator對象，該對象包含數組中每個索引的鍵/值
+    array1=[50,20,30,40,10];  
+    console.log("原始陣列",array1);
+    // entries() 陣列的索引值
+    var iterator1 = array1.entries();
+    console.log( iterator1.next().value );  //Array[0,10]
+    console.log( iterator1.next().value ); 
+
+    //values()
+    var iterator1 = array1.values();
+    console.log( iterator1.next().value );  //10
+    
+    //filter() 過濾，value > 25 的 輸出
+    var filtered = array1.filter( value => value > 25 );
+    console.log( filtered );    // [30,40,50]
+
+    //第一種寫法
+    function greeting(){
+        console.log("Hello");
+    }
+    greeting();
+    //第二種寫法
+    var greeting = () => {
+        console.log("Hello2");
+    }
+    greeting();
+    //第三種寫法
+    var greeting = () => "Welcome";
+    console.log(greeting());
+    //第四種寫法
+    var greeting = function(){
+        return "Welcome2"
+    }
+    console.log(greeting());*/
+
+    
     
 
 

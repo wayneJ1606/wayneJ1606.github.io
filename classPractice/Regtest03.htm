@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script>
+    var target = "18, 1897, 18.2, 2150, 310\n Sunday, Monday, Tuesday";
+
+    let reg1 = /^18/gi;
+    let reg2 = /day$/g;
+    let reg3 = /Tuesday$/gi;
+    let reg4 = /310$/;
+    let reg5 = /310$/m;     //比對符合 310結尾，m 比對換行符號
+
+    console.log(target.match(reg1));
+    console.log(target.match(reg2));
+    console.log(target.match(reg3));
+    console.log(target.match(reg4));
+    console.log(target.match(reg5));
+</script>

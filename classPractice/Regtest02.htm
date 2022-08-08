@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<script>
+    let target = '18 , 2150 , 310 , Sunday , Monday , Tuesday';
+
+    let reg11 = /[f-m]/;
+    let reg12 = /[f-m]/g;
+    let reg13 = /[f-m]/gi;
+    let reg21 = /Sunday ,+/g;
+    let reg22 = /Sunday,+/g;
+    let reg31 = /\d{3,4}/;
+    let reg32 = /\d{3,4}/g;
+
+    console.log( target.match( reg11 ) );
+    console.log( target.match( reg12 ) );
+    console.log( target.match( reg13 ) );
+    console.log( target.match( reg21 ) );
+    console.log( target.match( reg22 ) );
+    console.log( target.match( reg31 ) );
+    console.log( target.match( reg32 ) );
+
+    /*
+    g: 全域比對 (Global match)
+    i: 忽略大小寫 (Ignore case)
+    gi:全域比對並忽略大小寫
+    */
+
+
+
+    target = "There's a hero. If you look inside your heart. You don't balabala you yo yourself You."
+
+    //you 出現幾次
+    console.group("查詢某自出現次數");
+    let reg = /you\b/gi;
+    let ans = target.match(reg);
+    console.log(ans);
+    console.log("you出現" , ans.length , "次" );
+    console.groupEnd("查詢某自出現次數");
+    //建議要加 groupEnd()
+
+</script>
